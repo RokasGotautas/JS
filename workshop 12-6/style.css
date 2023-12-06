@@ -1,0 +1,40 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+.container {
+width: 40rem;
+height: 20rem;
+background-color: gray;
+padding: 1rem;
+text-align: center;
+}
+span {
+    font-size: 2rem;
+}
+
+.buttons{
+    margin-top: 1rem;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.subtract{
+    color: white;
+    background-color: red;
+}
+
+.add {
+    background-color: green;
+    color: white;
+}
+
